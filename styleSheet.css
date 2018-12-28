@@ -1,0 +1,117 @@
+* {margin: 0px; padding: 0px;}
+
+/* start */
+.start h1
+{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 420;
+}
+.start p
+{
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* resume */
+.demo-card-image.mdl-card 
+{
+    background: url('/Users/northgarrison/OneDrive/Personal_Projects/Personal_Website/resume.jpg') center / cover;
+    width: 26.9%;
+    height: 385.4px;
+    float: right;
+    position: relative;
+    right: 8.33%;
+    top: 93px;
+}
+.demo-card-image > .mdl-card__actions 
+{
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename 
+{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* information */
+.demo-card-wide.mdl-card 
+{
+    width: 55%;
+    position: relative;
+    top: 93px;
+    left: 8.33%;
+}
+.mdl-card__supporting-text
+{
+    height: 96px;
+    color: black;
+    font-size: 20px;
+}
+.demo-card-wide > .mdl-card__title 
+{
+    color: white;
+    height: 256px;
+    background: url('/Users/northgarrison/OneDrive/Personal_Projects/Personal_Website/welcome_winter.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__title  > .mdl-card__title-text
+{
+    font-size: 24px;
+    font-weight: 500;
+}
+.welcome_para
+{
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+/* written works */
+.writtenWorks-card-wide.mdl-card
+{
+    width: 83.33%;
+    position: relative;
+    top: 114px;
+    left: 8.33%;
+}
+.writtenWorks-card-wide > .mdl-card__menu
+{
+    color: #fff;
+}
+.writtenWorks-card-wide > .mdl-card__title 
+{
+    color: white;
+    height: 256px;
+    background: url('/Users/northgarrison/OneDrive/Personal_Projects/Personal_Website/csgo.png') center / cover;
+}
+.writtenWorks-card-wide > .mdl-card__supporting-text > .demo-card-image__filename > .mdl-button
+{
+    position: absolute;
+    bottom: 48px;
+    right: 3%;
+}
+
+/* footer */
+.footer
+{
+    height: 48px;
+    width: 100%;
+    position: absolute;
+    top: 1200px;
+    text-align: center;
+}
+
+.writtenWorks_title
+{
+    font-size: 20px;
+    padding-top: 18px;
+}
+.writtenWorks_date
+{
+    font-size: 16px;
+}
