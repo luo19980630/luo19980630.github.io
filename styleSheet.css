@@ -18,7 +18,7 @@
 /* resume */
 .demo-card-image.mdl-card 
 {
-    background: url('/Users/northgarrison/OneDrive/Personal_Projects/Personal_Website/resume.jpg') center / cover;
+    background: url('/resume.jpg') center / cover;
     width: 26.9%;
     height: 385.4px;
     float: right;
@@ -33,7 +33,7 @@
     background: rgba(0, 0, 0, 0.2);
 }
 .demo-card-image__filename 
-{
+{Personal_Website
     color: #fff;
     font-size: 15px;
     font-weight: 500;
@@ -57,7 +57,7 @@
 {
     color: white;
     height: 256px;
-    background: url('/Users/northgarrison/OneDrive/Personal_Projects/Personal_Website/welcome_winter.jpg') center / cover;
+    background: url('/welcome_winter.jpg') center / cover;
 }
 .demo-card-wide > .mdl-card__title  > .mdl-card__title-text
 {
@@ -87,7 +87,7 @@
 {
     color: white;
     height: 256px;
-    background: url('/Users/northgarrison/OneDrive/Personal_Projects/Personal_Website/csgo.png') center / cover;
+    background: url('/csgo.png') center / cover;
 }
 .writtenWorks-card-wide > .mdl-card__supporting-text > .demo-card-image__filename > .mdl-button
 {
