@@ -18,7 +18,7 @@
 /* resume */
 .demo-card-image.mdl-card 
 {
-    background: url('/resume.jpg') center / cover;
+    background: url('./resume.jpg') center / cover;
     width: 26.9%;
     height: 385.4px;
     float: right;
@@ -33,7 +33,7 @@
     background: rgba(0, 0, 0, 0.2);
 }
 .demo-card-image__filename 
-{Personal_Website
+{
     color: #fff;
     font-size: 15px;
     font-weight: 500;
@@ -57,7 +57,7 @@
 {
     color: white;
     height: 256px;
-    background: url('/welcome_winter.jpg') center / cover;
+    background: url('./welcome_winter.jpg') center / cover;
 }
 .demo-card-wide > .mdl-card__title  > .mdl-card__title-text
 {
@@ -72,7 +72,14 @@
 }
 
 /* written works */
-.writtenWorks-card-wide.mdl-card
+#csgo-writtenWorks
+{
+    width: 83.33%;
+    position: relative;
+    top: 135px;
+    left: 8.33%;
+}
+#potatoes-writtenWorks
 {
     width: 83.33%;
     position: relative;
@@ -83,27 +90,23 @@
 {
     color: #fff;
 }
-.writtenWorks-card-wide > .mdl-card__title 
+.writtenWorks-card-wide > #potatoes-title
 {
     color: white;
     height: 256px;
-    background: url('/csgo.png') center / cover;
+    background: url('./potatoes.jpeg') center / cover;
+}
+.writtenWorks-card-wide > #csgo-title
+{
+    color: white;
+    height: 256px;
+    background: url('./csgo.png') center / cover;
 }
 .writtenWorks-card-wide > .mdl-card__supporting-text > .demo-card-image__filename > .mdl-button
 {
     position: absolute;
     bottom: 48px;
     right: 3%;
-}
-
-/* footer */
-.footer
-{
-    height: 48px;
-    width: 100%;
-    position: absolute;
-    top: 1200px;
-    text-align: center;
 }
 
 .writtenWorks_title
@@ -114,4 +117,14 @@
 .writtenWorks_date
 {
     font-size: 16px;
+}
+
+/* footer */
+.footer
+{
+    height: 48px;
+    width: 100%;
+    position: absolute;
+    top: 1550px;
+    text-align: center;
 }
