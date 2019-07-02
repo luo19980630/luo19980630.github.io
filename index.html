@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang = "zh">
-  <head>
+<head>
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BETA - Xiaolei Luo</title>
@@ -11,102 +11,41 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <!-- Basic Stylesheet-->
-    <link rel = "stylesheet" href = "./styleSheet.css">
-  </head>
+    <link rel = "stylesheet" href = "./stylesheet2.css">
+</head>
 
-  <body>
-    <!-- start -->
-    <div class = "start">
-        <h1>“ 泛泛杨舟，载沉载浮。既见君子，我心则休。”</h1>
-        <p>-《诗经·小雅·菁菁者莪》</p>
-    </div>
-    <!-- resume -->
-    <div class="demo-card-image mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title mdl-card--expand"></div>
-        <div class="mdl-card__actions">
-            <a class="demo-card-image__filename" href = "./Resume_Xiaolei_Luo.pdf"
-            style="text-decoration:none; color:white" target = "_blank">简历 / RESUME</a>
-        </div>
-    </div>
-    <!-- welcome -->
-    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-      <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text">WELCOME</h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-        <p class = "welcome_para">北镇抚司总旗官，罗晓磊。</p>
-        <span class="mdl-chip">
-            <span class="mdl-chip__text">#BornInShanghai</span>
-        </span>
-        <span class="mdl-chip">
-            <span class="mdl-chip__text">#UCLABruins</span>
-        </span>
-        <span class="mdl-chip">
-            <span class="mdl-chip__text">#ComputerScience</span>
-        </span>
-        <span class="mdl-chip">
-            <span class="mdl-chip__text">#PCGaming</span>
-        </span>
-        <span class="mdl-chip">
-            <span class="mdl-chip__text">#Esports</span>
-        </span>
-        <span class="mdl-chip">
-            <span class="mdl-chip__text">#AncientHistory</span>
-        </span>
-      </div>
+<script>
+    var countDownDate = new Date("Sep 19, 2019 23:00:00").getTime();
+    
+    var x = setInterval(function() {
+
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+        document.getElementById("countdowntimer").innerHTML = days + "D " + hours + "H "
+        + minutes + "M " + seconds + "S ";
+        
+        if (distance < 0) 
+        {
+            clearInterval(x);
+            document.getElementById("countdowntimer").innerHTML = "EXPIRED";
+        }
+
+    }, 1000);
+</script>
+<body>
+    <div id="countdowntimerdiv">
+        <p id="countdowntimerwords">THE SUMMER WOULD END IN...</p>
+        <p id="countdowntimer"></p>
     </div>
 
-    <!-- written works -->
-    <div class="writtenWorks-card-wide mdl-card mdl-shadow--2dp"
-         id = "potatoes-writtenWorks">
-        <div class="mdl-card__title" id = "potatoes-title">
-            <h2 class="mdl-card__title-text"></h2>
-        </div>
-        <div class="mdl-card__supporting-text">
-            <p class = "writtenWorks_title">食物 - 三种难吃的土豆做法</p>
-            <p class = "writtenWorks_date"> 「二零一九年，一月，十七日」</p>
-            <a class="demo-card-image__filename" href = "./potatoes.html"
-            style="text-decoration:none" target = "_blank">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                    阅读
-                </button>
-            </a>
-        </div>
-        <div class="mdl-card__menu">
-            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                <i class="material-icons">share</i>
-            </button>
-        </div>
-    </div>
-
-    <div class="writtenWorks-card-wide mdl-card mdl-shadow--2dp"
-         id = "csgo-writtenWorks">
-        <div class="mdl-card__title" id = "csgo-title">
-            <h2 class="mdl-card__title-text"></h2>
-        </div>
-        <div class="mdl-card__supporting-text">
-            <p class = "writtenWorks_title">评测 - 《反恐精英：全球攻势》</p>
-            <p class = "writtenWorks_date"> 「二零一八年，十二月，二十五日」</p>
-            <a class="demo-card-image__filename" href = "./csgo.html"
-            style="text-decoration:none" target = "_blank">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                    阅读
-                </button>
-            </a>
-        </div>
-        <div class="mdl-card__menu">
-            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                <i class="material-icons">share</i>
-            </button>
-        </div>
-    </div>
-
-    <!-- footer -->
-    <footer class = "footer">
-        <span class="mdl-chip">
-            <span class="mdl-chip__text">Copyright © 2019 All rights reserved.</span>
-        </span>
-    </footer>
-
-  </body>
+    <a href="./five.pdf"><button class="profile mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect"></button></a>
+    <a href="mailto: luo19980630@outlook.com"><button class="mail mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"></button></a>
+    <a href="https://github.com/luo19980630"><button class="github mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"></button></a>
+    <a href="https://www.linkedin.com/in/xiaolei-luo-091444169"><button class="linkedin mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"></button></a>
+</body>
 </html>
