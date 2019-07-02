@@ -1,0 +1,64 @@
+* {margin: 0px; padding: 0px;}
+
+@font-face
+{
+    font-family: myFirstFont;
+    src: url(Marske.ttf);
+}
+
+#countdowntimer
+{
+    color: black;
+    font-size: 100px;
+    font-weight: 300;
+    font-family: myFirstFont;
+    padding-top: 80px;
+}
+#countdowntimerwords
+{
+    color: black;
+    font-size: 65px;
+    font-weight: 300;
+    font-family: myFirstFont;
+}
+#countdowntimerdiv
+{
+    position: absolute;
+    text-align:center;
+    width: 100%;
+    top: 260px;
+}
+
+/* information */
+.profile
+{   
+    float: right;
+    position: absolute;
+    right: 16%;
+    top: 713px;
+    background: url('./resume.jpg') center / cover;
+}
+.mail
+{
+    float: right;
+    position: absolute;
+    right: 12%;
+    top: 721px;
+    background: url('./mail.png') center / cover;
+}
+.github
+{
+    float: right;
+    position: absolute;
+    right: 8%;
+    top: 721px;
+    background: url('./github.png') center / cover;
+}
+.linkedin
+{
+    float: right;
+    position: absolute;
+    right: 4%;
+    top: 721px;
+    background: url('./linkedin.png') center / cover;
+}
