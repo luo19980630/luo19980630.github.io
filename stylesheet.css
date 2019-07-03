@@ -34,7 +34,7 @@
 {   
     float: right;
     position: absolute;
-    right: 16%;
+    right: 15%;
     top: 713px;
     background: url('./resume.jpg') center / cover;
 }
@@ -42,7 +42,7 @@
 {
     float: right;
     position: absolute;
-    right: 12%;
+    right: 11%;
     top: 721px;
     background: url('./mail.png') center / cover;
 }
@@ -50,7 +50,7 @@
 {
     float: right;
     position: absolute;
-    right: 8%;
+    right: 7%;
     top: 721px;
     background: url('./github.png') center / cover;
 }
@@ -58,7 +58,7 @@
 {
     float: right;
     position: absolute;
-    right: 4%;
+    right: 3%;
     top: 721px;
     background: url('./linkedin.png') center / cover;
 }
