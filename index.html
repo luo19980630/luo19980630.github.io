@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang = "zh">
-<head>
+  <head>
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BETA - Xiaolei Luo</title>
@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <!-- Basic Stylesheet-->
     <link rel = "stylesheet" href = "./stylesheet.css">
-</head>
+  </head>
 
-<script>
-    var countDownDate = new Date("Sep 19, 2019 23:59:59").getTime();
+  <script>
+    var countDownDate = new Date("Sep 19, 2019 23:00:00").getTime();
     
     var x = setInterval(function() {
 
@@ -26,9 +26,11 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
         
-        document.getElementById("countdowntimer").innerHTML = days + "D " + hours + "H "
-        + minutes + "M " + seconds + "S ";
-        
+        document.getElementById("countdownTimerDay").innerHTML = days + "D";
+        document.getElementById("countdownTimerHour").innerHTML = hours + "H";
+        document.getElementById("countdownTimerMin").innerHTML = minutes + "M";
+        document.getElementById("countdownTimerSec").innerHTML = + seconds + "S";
+
         if (distance < 0) 
         {
             clearInterval(x);
@@ -36,16 +38,95 @@
         }
 
     }, 1000);
-</script>
-<body>
-    <div id="countdowntimerdiv">
-        <p id="countdowntimerwords">THE SUMMER WOULD END IN...</p>
-        <p id="countdowntimer"></p>
+  </script>
+  
+  <body>
+    <!-- start -->
+    <div class = "start">
+        <h1>「北镇抚司总旗官」罗晓磊</h1>
+    </div>
+    <!-- resume -->
+    <div class="demo-card-image mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title mdl-card--expand"></div>
+        <div class="mdl-card__actions">
+            <a class="demo-card-image__filename" href = "./Resume_Xiaolei_Luo.pdf"
+            style="text-decoration:none; color:white" target = "_blank">简历 / RESUME</a>
+        </div>
+    </div>
+    <!-- welcome -->
+    <!-- <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">WELCOME</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <p class = "welcome_para">北镇抚司总旗官，罗晓磊。</p>
+        <span class="mdl-chip">
+            <span class="mdl-chip__text">#BornInShanghai</span>
+        </span>
+        <span class="mdl-chip">
+            <span class="mdl-chip__text">#UCLABruins</span>
+        </span>
+        <span class="mdl-chip">
+            <span class="mdl-chip__text">#ComputerScience</span>
+        </span>
+        <span class="mdl-chip">
+            <span class="mdl-chip__text">#PCGaming</span>
+        </span>
+        <span class="mdl-chip">
+            <span class="mdl-chip__text">#Esports</span>
+        </span>
+        <span class="mdl-chip">
+            <span class="mdl-chip__text">#AncientHistory</span>
+        </span>
+      </div>
+    </div> -->
+
+    <!-- written works -->
+    <div class="leetcodenotes-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title"></div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-js-button mdl-js-ripple-effect">
+            力扣笔记 / LEETCODE
+          </a>
+        </div>
+    </div>
+   <div class="comscinotes-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title"></div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-js-button mdl-js-ripple-effect">
+            计算机图形学笔记 / CS GRAPHICS
+          </a>
+        </div>
+    </div>
+    <div class="gamereview-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title"></div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-js-button mdl-js-ripple-effect">
+            游戏评测 / GAME REVIEW
+          </a>
+        </div>
     </div>
 
+    <!-- countdown timer -->
+    <div id="countdowntimer">
+      <p id="countdownTimerDay"></p>
+      <p id="countdownTimerHour"></p>
+      <p id="countdownTimerMin"></p>
+      <p id="countdownTimerSec"></p>
+    </div>
+    
+    <!-- information -->
     <a href="./five.pdf"><button class="profile mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect"></button></a>
     <a href="mailto: luo19980630@outlook.com"><button class="mail mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"></button></a>
     <a href="https://github.com/luo19980630"><button class="github mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"></button></a>
     <a href="https://www.linkedin.com/in/xiaolei-luo-091444169"><button class="linkedin mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"></button></a>
-</body>
+
+    <!-- footer -->
+    <footer class = "footer">
+        <span class="mdl-chip">
+            <span class="mdl-chip__text">旅美共产主义小组监制。Copyright © 2019 All rights reserved.</span>
+        </span>
+    </footer>
+
+  </body>
 </html>

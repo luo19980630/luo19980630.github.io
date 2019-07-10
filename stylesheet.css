@@ -6,27 +6,121 @@
     src: url(Marske.ttf);
 }
 
-#countdowntimer
+/* start */
+.start h1
+{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 4.5%;
+    font-size: 32px;
+    font-weight: 435;
+}
+/* .start p
+{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+} */
+
+/* resume */
+.demo-card-image.mdl-card 
+{
+    background: url('./Kassandra.png') center / cover;
+    width: 64.5%;
+    height: 390px;
+    float: left;
+    position: relative;
+    left: 6%;
+}
+.demo-card-image > .mdl-card__actions 
+{
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename 
+{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* leetcode notes */
+.leetcodenotes-card-wide.mdl-card 
+{
+    width: 20.5%;
+    height: 220px;
+    float: left;
+    position: absolute;
+    left: 6%;
+    top: 548px;
+}
+.leetcodenotes-card-wide > .mdl-card__title 
 {
     color: black;
-    font-size: 100px;
+    height: 220px;
+    background: url('./test1.png') center / cover;
+}
+.leetcodenotes-card-wide > .mdl-card__menu {color: black;}
+
+/* com sci notes */
+.comscinotes-card-wide.mdl-card 
+{
+    width: 20.5%;
+    height: 220px;
+    float: left;
+    position: absolute;
+    left: 28%;
+    top: 548px;
+}
+.comscinotes-card-wide > .mdl-card__title 
+{
+    color: black;
+    height: 220px;
+    background: url('./test2.png') center / cover;
+}
+.comscinotes-card-wide > .mdl-card__menu {color: #fff;}
+
+/* game review */
+.gamereview-card-wide.mdl-card 
+{
+    width: 20.5%;
+    height: 220px;
+    float: left;
+    position: absolute;
+    left: 50%;
+    top: 548px;
+}
+.gamereview-card-wide > .mdl-card__title 
+{
+    color: black;
+    height: 220px;
+    background: url('./test3.png') center / cover;
+}
+.gamereview-card-wide > .mdl-card__menu {color: #fff;}
+
+/* countdown timer */
+#countdownTimerDay, #countdownTimerHour, #countdownTimerMin, #countdownTimerSec
+{
+    color: black;
+    font-size: 155px;
     font-weight: 300;
     font-family: myFirstFont;
-    padding-top: 60px;
+    padding-bottom: 100px;
 }
-#countdowntimerwords
+/* #countdownTimerTitle
 {
     color: black;
     font-size: 30px;
-    font-weight: 300;
-    font-family: myFirstFont;
-}
-#countdowntimerdiv
+    font-weight: 435;
+    padding-bottom: 45px;
+} */
+#countdowntimer
 {
     position: absolute;
     text-align:center;
-    width: 100%;
-    top: 260px;
+    right: 6%;
+    top: 185px;
 }
 
 /* information */
@@ -34,7 +128,7 @@
 {   
     float: right;
     position: absolute;
-    right: 14%;
+    right: 16%;
     top: 713px;
     background: url('./resume.jpg') center / cover;
 }
@@ -42,7 +136,7 @@
 {
     float: right;
     position: absolute;
-    right: 10%;
+    right: 12%;
     top: 721px;
     background: url('./mail.png') center / cover;
 }
@@ -50,7 +144,7 @@
 {
     float: right;
     position: absolute;
-    right: 6%;
+    right: 8%;
     top: 721px;
     background: url('./github.png') center / cover;
 }
@@ -58,7 +152,17 @@
 {
     float: right;
     position: absolute;
-    right: 2%;
+    right: 4%;
     top: 721px;
     background: url('./linkedin.png') center / cover;
+}
+
+/* footer */
+.footer
+{
+    height: 48px;
+    width: 100%;
+    position: absolute;
+    top: 787px;
+    text-align: center;
 }
