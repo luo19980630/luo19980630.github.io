@@ -1,5 +1,10 @@
 * {margin: 0px; padding: 0px;}
 
+@font-face {
+    font-family: '小篆';
+    src: url('方正小篆体.ttf');
+}
+
 a { font-size: 14px; text-decoration: none; }
 a:link { color: #424242;}
 a:visited { color: #424242;}
@@ -9,8 +14,9 @@ a:visited { color: #424242;}
     position: absolute;
     width: 100%;
     height: 360px;
-    border-bottom-left-radius: 0.5%;
-    border-bottom-right-radius: 0.5%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background: url('./start4.jpg') center / cover;
     -webkit-transition: height 2s;
     transition: height 2s;
@@ -21,13 +27,13 @@ a:visited { color: #424242;}
     position: absolute;
     left: 4px;
     bottom: 4px;
-    width: 46px;
-    height: 24px;
-    font-size: 12px;
-    font-weight: 400;
+    width: 66px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 小篆;
     background-color: #D32F2F;
     color: white;
-    border-radius: 10%;
+    border-radius: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
