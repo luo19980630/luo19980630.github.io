@@ -16,13 +16,22 @@ a:visited { color: #424242;}
     transition: height 2s;
     z-index: 999;
 }
-.start_img_ref
+.start_ref
 {
     position: absolute;
-    right: 4px;
+    left: 4px;
     bottom: 4px;
-    width: 50px;
-    height: 50px;
+    width: 46px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #D32F2F;
+    color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .start_img:hover 
