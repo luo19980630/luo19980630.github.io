@@ -1,57 +1,130 @@
 * {margin: 0px; padding: 0px;}
 
-@font-face
-{
-    font-family: fzsjt;
-    src: url(方正瘦金书简体.ttf);
-}
+a { font-size: 14px; text-decoration: none; }
+a:link { color: #424242;}
+a:visited { color: #424242;}
 
-.container
+.start_img
 {
-    margin-top: -2%;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 360px;
+    border-bottom-left-radius: 0.5%;
+    border-bottom-right-radius: 0.5%;
+    background: url('./start4.jpg') center / cover;
+    -webkit-transition: height 2s;
+    transition: height 2s;
+    z-index: 999;
+}
+.start_img_ref
+{
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    width: 50px;
+    height: 50px;
+}
+
+.start_img:hover 
+{
+    height: 600px;
+}
+.language
+{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    width: 22px;
+    height: 22px;
+}
+.container
+{
+    position: absolute;
+    top: 360px;
+    width: 100%;
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    z-index: 998;
+    /* border: 1px solid black; */
 }
 
 /* start */
-.start h1
+.verse
 {
-    font-family: fzsjt;
-    font-size: 40px;
-    font-weight: 600;
-}
-
-/* information */
-.informationFather
-{
-    width: 100%;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
 }
-.profile
-{   
-    margin-right: 10px;
-    background: url('./resume.png') center / cover;
-}
-.mail
+.verse h1
 {
-    margin-right: 10px;
-    background: url('./mail.png') center / cover;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
 }
-.github
+.verse_ref h1
 {
-    margin-right: 10px;
-    background: url('./github.png') center / cover;
+    padding-top: 4px;
+    padding-bottom: 50px;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    color: black;
 }
-.linkedin
+.my_info_line
 {
-    background: url('./linkedin.png') center / cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.my_info_line img
+{
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 32px;
+    height: 32px;
+}
+.my_info p
+{
+    padding-top: 24px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+
+.footer
+{
+    position: absolute;
+    top: 950px;
+    margin-top: 100px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.footer_img
+{
+    width: 140px;
+    height: 100px;
+    background: url('./footer.png') center / cover;
+    position: relative;
+    bottom: 36px;
+}
+.copyright
+{
+    font-size: 14px;
+    color: #424242;
+    position: relative;
+    bottom: 12px;
+}
+.links
+{
+    /* font-family: 'Lucida Console'; */
+    position: relative;
+    bottom: 6px;
 }
