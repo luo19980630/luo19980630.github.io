@@ -7,8 +7,8 @@
 }
 
 a { font-size: 14px; text-decoration: none; }
-a:link { color: black;}
-a:visited { color: black;}
+a:link { color: #EF5350;}
+a:visited { color: #EF5350;}
 .start_img
 {
     position: absolute;
@@ -26,8 +26,8 @@ a:visited { color: black;}
 {
     position: absolute;
     left: 4px;
-    bottom: 4px;
-    width: 46px;
+    bottom: 2px;
+    width: 66px;
     height: 30px;
     font-size: 20px;
     font-family: 小篆;
@@ -46,10 +46,10 @@ a:visited { color: black;}
 .reference
 {
     position: relative;
-    top: 10px;
+    top: 12px;
     right: 10px;
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
 }
 .container
 {
@@ -155,8 +155,8 @@ a:visited { color: black;}
     width: 60px;
     height: 28px;
     font-weight: 500;
-    background-color: #FFEBEE;
-    box-shadow: 0 2px 4px 0 #FFEBEE;
+    background-color: #EEEEEE;
+    box-shadow: 0 2px 4px 0 #EEEEEE;
     border-radius:25px;
 }
 .translation
@@ -170,7 +170,8 @@ a:visited { color: black;}
     width: 60px;
     height: 28px;
     font-weight: 500;
-    background-color: #E1F5FE;
-    box-shadow: 0 2px 4px 0 #E1F5FE;
+    background-color: #EEEEEE;
+    box-shadow: 0 2px 4px 0 #EEEEEE;
+    color: #42A5F5;
     border-radius: 25px;
 }
