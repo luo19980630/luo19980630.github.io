@@ -14,8 +14,6 @@ a:visited { color: #EF5350;}
     position: absolute;
     width: 100%;
     height: 360px;
-    /* border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background: url('./start.png') center / cover;
     -webkit-transition: height 2s;
@@ -36,8 +34,6 @@ a:visited { color: #EF5350;}
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* background-color: #D32F2F;
-    border-radius: 5px; */
 }
 
 .start_img:hover 
@@ -115,7 +111,7 @@ a:visited { color: #EF5350;}
     top: 1000px;
     margin-top: 100px;
     width: 100%;
-    height: 290px;
+    height: 286px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,11 +122,13 @@ a:visited { color: #EF5350;}
     display: flex;
     flex-direction: line;
     align-items: center;
+    justify-content: center;
+    width: 400px;
 }
 .footer_img_0
 {
-    width: 152px;
-    height: 230px;
+    width: 160px;
+    height: 220px;
     background: url('./footer0.png') center / cover;
     position: relative;
     bottom: 40px;
@@ -138,8 +136,8 @@ a:visited { color: #EF5350;}
 }
 .footer_img_1
 {
-    width: 152px;
-    height: 230px;
+    width: 150px;
+    height: 226px;
     background: url('./footer1.png') center / cover;
     position: relative;
     bottom: 40px;
