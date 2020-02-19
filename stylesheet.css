@@ -74,6 +74,7 @@ a:visited { color: #EF5350;}
     font-size: 30px;
     font-weight: 300;
     color: black;
+    font-weight: 300;
 }
 .verse_ref h1
 {
@@ -102,16 +103,16 @@ a:visited { color: #EF5350;}
     font-size: 20px;
     font-weight: 300;
     color: black;
+    font-weight: 350;
 }
-
 
 .footer
 {
     position: absolute;
-    top: 1000px;
+    top: 940px;
     margin-top: 100px;
     width: 100%;
-    height: 286px;
+    height: 188px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,28 +128,19 @@ a:visited { color: #EF5350;}
 }
 .footer_img_0
 {
-    width: 160px;
-    height: 220px;
-    background: url('./footer0.png') center / cover;
+    width: 180px;
+    height: 128px;
+    background: url('./footer.png') center / cover;
     position: relative;
     bottom: 40px;
     margin-right: 10px;
-}
-.footer_img_1
-{
-    width: 150px;
-    height: 226px;
-    background: url('./footer1.png') center / cover;
-    position: relative;
-    bottom: 40px;
-    margin-left: 10px;
 }
 .copyright
 {
     font-size: 14px;
     color: #424242;
     position: relative;
-    bottom: 24px;
+    bottom: 26px;
 }
 .links
 {
@@ -166,9 +158,9 @@ a:visited { color: #EF5350;}
     justify-content: center;
     margin-left: 6px;
     margin-right: 6px;
-    width: 60px;
-    height: 28px;
-    font-weight: 500;
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
     background-color: #EEEEEE;
     box-shadow: 0 2px 4px 0 #EEEEEE;
     border-radius:25px;
@@ -181,11 +173,11 @@ a:visited { color: #EF5350;}
     justify-content: center;
     margin-left: 6px;
     margin-right: 6px;
-    width: 60px;
-    height: 28px;
-    font-weight: 500;
-    background-color: #EEEEEE;
-    box-shadow: 0 2px 4px 0 #EEEEEE;
-    color: #42A5F5;
+    width: 62px;
+    height: 30px;
+    font-weight: 600;
+    background-color: #e3f2fd;
+    box-shadow: 0 2px 4px 0 #e3f2fd;
+    color: #2196f3;
     border-radius: 25px;
 }
